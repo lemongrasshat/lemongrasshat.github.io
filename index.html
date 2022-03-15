@@ -1,62 +1,166 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Toram Bot for Line Messenger,Line Bot developement and hosting">
-    <meta name="keywords" content="Toram Bot,chatbot,Line SDK">
-    <meta name="google-site-verification" content="sjvgGUBnvAyhOLoMYsZcc6nmzT3fOY7iWSixStKj2x4" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <meta name="description" content="Portfolio of Shubham Wagh ">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <script>
+         let copyText=()=>{
+        let myInput = "shubham.wagh.business@gmail.com";
+        navigator.clipboard.writeText(myInput).then(res=>{
+            alert("Email Copied to Clipboard");
+        })
+    }
+    </script>
+</head>
 
-  </head>
-<meta name="google-site-verification" content="sjvgGUBnvAyhOLoMYsZcc6nmzT3fOY7iWSixStKj2x4" />
-  <body style="text-align: center;background-color: cadetblue;">
-
-    <div class="container">
-      <div class="header clearfix">
+<body>
+    <section class="star-end-container">
+        <h1 id="welcome-text" class="text-bold text-primary text-10pxpad">
+            Welcome
+        </h1>
         <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              
-            </li>
-            <li class="nav-item">
-              
-            </li>
-            <li class="nav-item">
-              
-            </li>
-          </ul>
+            <ul class="link-container">
+                <li><a href="#project-section"> Projects</a></li>
+                <li><a href="#contacts"> Contact me</a></li>
+            </ul>
         </nav>
-        <h3 class="text-black">BubbleGum Toram Bot for LINE messenger<br></h3>
-        <h2 class="text-black">Features:<br></h2>
-        <ul class="list-group">
-            <li class="list-group-item">Decent help menu (I guess)</li>
-            <li class="list-group-item">Food Buff tracker which allows user to add , edit their own foods and auto removal if they leave that group</li>
-            <li class="list-group-item">Monster Levelling search which uses coryn.club as references</li>
-            <li class="list-group-item">Guides related to Refining and Statting in toram.</li>
-            <li class="list-group-item">Admin system to allow more than one food buff(Toram allows 2 for now ) this is to make sure user can't add more than allowed.</li>
-          </ul>
-      </div>
-       <br>
-        <p><a class="btn btn-lg btn-primary" href="https://github.com/lemongrasshat/ToramBot/releases" role="button" spellcheckker="false">DOWNLOAD</a></p>
-        <div>
-        <p><a class="btn btn-lg btn-primary" href="https://github.com/lemongrasshat/ToramBot/blob/master/README.md" role="button" spellcheckker="false" >Setup</a></p>
+    </section>
+    <section class="big-container">
+        <div class="intro">
+            <h1 class="text-primary text-10pxpad text-hugeheadings"> About me </h1>
+            <p class="text-primary text-10pxpad">
+                First of all, Thank you for Stopping By!
+            </p>
+            <p class="text-primary text-10pxpad">
+                My name is <span class="text-imp text-bold text-smallhugeheading"> Shubham Wagh</span>.
+            </p>
+            <p class="text-primary text-10pxpad">
+                I am a software devoloper.
+            </p>
+            <p class="text-primary text-10pxpad">
+                Currently interested in Web Development and I love automating my tasks.
+            </p>
         </div>
-        <div>
-            <a class="btn btn-lg btn-primary" href="https://github.com/lemongrasshat/ToramBot/wiki" role="button" spellcheckker="false">Documentation</a>
+
+        <div class="language-holder">
+            <h2 class="text-primary text-10pxpad">My stack</h2>
+            <ul class="stack-container text-primary  text-10pxpad text-bold">
+                <li>C++</li>
+                <li>Python</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Unix/Linux(Bash)</li>
+            </ul>
         </div>
-      </div>
+    </section>
+    <section class="seperator text-primary text-10pxpad">
+        <div class="text-center">
+ 
+        <h1 >Projects</h1>
+    </div>
+    </section>
+    <section id="project-section" class="main-card-container">
 
+        <div class="project-card">
+            <div class="project-heading">
+                <p class="text-highlight text-smallhugeheading">
+                    Simulation of Autonomous Car in Virtual Environment
+                    </h1>
+                <ul>
+                    <li class="project-description text-primary text-10pxpad">
+                        Developed an autonomous car in a virtual environment that can detect objects and steer
+                        accordingly.
+                    </li>
+                </ul>
 
-      <div class="row marketing">
-        
+            </div>
+            <div class="img-wrapper">
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-heading">
+                <p class="text-highlight text-smallhugeheading">
+                    BubbleGum Chat Bot
+                    </h1>
+                <ul>
+                    <li class="project-description text-primary text-10pxpad">
+                        Developed and actively adding new features to chat bot for Line Messenger.
+                    </li>
+                </ul>
 
-        
-      </div>
+            </div>
 
-      <footer class="footer">
-        <p>♥ le fancy site<br></p>
-      </footer>
+        </div>
+        </div>
+        <div class="project-card">
+            <div class="project-heading">
+                <p class="text-highlight text-smallhugeheading">
+                    Guild Website for Akida Arkhein
+                    </h1>
+                <ul>
+                    <li class="project-description text-primary text-10pxpad">
+                        Developed a website for a small club that allowed users to search and admins to manage data.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-heading">
+                <p class="text-highlight text-smallhugeheading">
+                    AutoFisher for Minecraft
+                    </h1>
+                <ul>
+                    <li class="project-description text-primary text-10pxpad">
+                        Developed tool for automating fishing in the game Minecraft.
+                </ul>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-heading">
+                <p class="text-highlight text-smallhugeheading">
+                    CLI Backup Application for Don't Starve Together
+                </p>
+                <ul>
+                    <li class="project-description text-primary text-10pxpad">
+                        Developed tool for backing up save files of game Don't Starve Together.
+                </ul>
+            </div>
+        </div>
 
-    </div> <!-- /container -->
+        </div>
+    </section>
+    <footer id="contacts">
+        <div class="big-container">
+            <div class="footer-link-container">
+                <p class="text-primary text-10pxpad wtext-smallhugeheading">
+                    Contact Me from over Here
+                </p>
+                <div class="link-button rotate-icon">
+                    <a href="https://github.com/lemongrasshat" target="_blank">
+                        <img src="gitlight.png" height="32px" alt="">
+                    </a>
+                </div>
+                <div class="link-button rotate-icon " >
+                    <a href="https://www.linkedin.com/in/-shubham-wagh/" target="_blank">
+                        <img src="Li.png" height="32px" alt="">
+                    </a>
+                </div>
+                <div class="link-button rotate-icon">
+                    <a onclick="copyText()" target="_blank" title="Click me to Copy Email">
+                        <img src="email.png" height="32px" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>

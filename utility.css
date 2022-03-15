@@ -1,0 +1,38 @@
+:root{
+    --text-primary: white;
+    --bg-dark-primary: #082032;
+    --bg-dark-secondary: #2C394B;
+    --bg-dark-border: #9145B6;
+    --bg-dark-border-secondary: #38A3A5;
+    --text-highlight:#DA7F8F;
+    --text-imp:#FF5677;
+    --text-dark:black;
+    --animation-duration:6s ;
+}
+.text-bold
+{
+    font-weight: 800;
+}
+.text-smallhugeheading
+{
+    font-size:1.5rem;
+}
+.text-primary
+{
+    color:var(--text-primary);
+}
+.text-10pxpad
+{
+    padding: 10px;
+}
+.text-hugeheadings{
+    font-size: 2rem;
+}
+.text-imp
+{
+color:var(--text-imp);
+}
+.text-highlight
+{
+    color:var(--text-highlight);
+}
